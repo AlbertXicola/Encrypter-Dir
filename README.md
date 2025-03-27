@@ -23,7 +23,7 @@ The user can encrypt files in a specific directory. During this process:
 - **Important**: **The encryption key will be automatically deleted after the encryption is completed**.
 - **Make sure to copy the key once it is shown, IT WILL BE DELETED!**.
 
-**Caution**: Be sure to specify the correct path to avoid encrypting unintended files or directories. Double-check the path before proceeding!
+⚠️ **Caution**: Be sure to specify the correct path to avoid encrypting unintended files or directories. Double-check the path before proceeding!
 
 ### 2. **Decrypt Files**
 The user can decrypt files in a specific directory. During this process:
