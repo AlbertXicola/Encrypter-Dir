@@ -1,36 +1,36 @@
 # Kichola Malware v1.0 - README
 
-Bienvenido a **Kichola Malware v1.0**, una herramienta poderosa y dinámica para encriptación y desencriptación de archivos. A continuación, se explica el funcionamiento de la aplicación, el manejo de la clave de encriptación y consideraciones importantes.
+Welcome to **Kichola Malware v1.0**, a dynamic tool for file encryption and decryption. Below, you will find details about how the application works, how to handle the encryption key, and important considerations.
 
 ---
 
-## **Descripción del Programa**
+## **Program Description**
 
-**Kichola Malware v1.0** es un programa de línea de comandos que permite:
-1. Ver información detallada del sistema.
-2. Encriptar archivos dentro de un directorio específico.
-3. Desencriptar archivos previamente encriptados utilizando una clave de encriptación.
+**Kichola Malware v1.0** is a command-line program that allows you to:
+1. View system information.
+2. Encrypt files within a specific directory.
+3. Decrypt files that were previously encrypted using an encryption key.
 
-El software está diseñado para ser ejecutado como un archivo **.exe** en Windows o Linux.
+The software is designed to run as an **.exe** file.
 
 ---
 
-## **Flujo de Trabajo**
+## **Workflow**
 
-### 1. **Mostrar Información del Sistema**
-Al seleccionar la opción para mostrar la información del sistema, el programa proporcionará los siguientes detalles:
-- Sistema Operativo
-- Versión del sistema operativo
-- Procesador
-- Memoria RAM total
-- Núcleos físicos y lógicos
+### 1. **Encrypt Files**
+The user can encrypt files in a specific directory. During this process:
+- The program will go through all the files in the directory and encrypt them.
+- **Important**: **The encryption key will be automatically deleted after the encryption is completed**.
+- **Make sure to copy the key once it is shown, IT WILL BE DELETED!**.
 
-### 2. **Encriptar Archivos**
-El usuario puede encriptar archivos en un directorio específico. Durante este proceso:
-- El programa recorrerá todos los archivos del directorio y los encriptará.
-- **Importante**: **La clave de encriptación será eliminada automáticamente después de completar la encriptación**. 
-- **Asegúrate de copiar la clave antes de que se elimine**.
+**Caution**: Be sure to specify the correct path to avoid encrypting unintended files or directories. Double-check the path before proceeding!
 
-**Advertencia en rojo**:
+### 2. **Decrypt Files**
+The user can decrypt files in a specific directory. During this process:
+- The program will go through all the files in the directory and decrypt them.
+- **Important**: **The encryption key will be automatically deleted after the decryption is completed**.
+- **Make sure to copy the key once it is shown, IT WILL BE DELETED!**.
+
+**Warning**:
 ```diff
-- ¡Asegúrate de copiar la clave de encriptación antes de que se elimine!
+- Make sure to copy the encryption key before it is deleted!
