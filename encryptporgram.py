@@ -35,15 +35,16 @@ def show_system_info():
     print("\033[1;33mYou selected Show system info.\033[0m")
     
     system_info = {
-        "Sistema Operativo": platform.system(),
-        "Versión del SO": platform.version(),
-        "Nombre del Nodo": platform.node(),
-        "Arquitectura": platform.architecture()[0],
-        "Procesador": platform.processor(),
-        "Núcleos Físicos": psutil.cpu_count(logical=False),
-        "Núcleos Lógicos": psutil.cpu_count(logical=True),
-        "Memoria RAM Total": f"{round(psutil.virtual_memory().total / (1024**3), 2)} GB"
+        "Operating System": platform.system(),
+        "OS Version": platform.version(),
+        "Node Name": platform.node(),
+        "Architecture": platform.architecture()[0],
+        "Processor": platform.processor(),
+        "Physical Cores": psutil.cpu_count(logical=False),
+        "Logical Cores": psutil.cpu_count(logical=True),
+        "Total RAM": f"{round(psutil.virtual_memory().total / (1024**3), 2)} GB"
     }
+
     
     print("\n\033[1;34m--- System Information ---\033[0m")
     for key, value in system_info.items():
