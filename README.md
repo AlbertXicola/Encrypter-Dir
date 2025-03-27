@@ -1,4 +1,4 @@
-# Kichola Malware v1.0 - README
+# Encrypter Dir v1.0 - README
 
 Welcome to **Kichola Malware v1.0**, a dynamic tool for file encryption and decryption. Below, you will find details about how the application works, how to handle the encryption key, and important considerations.
 
