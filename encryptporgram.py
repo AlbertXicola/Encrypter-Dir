@@ -12,7 +12,7 @@ def print_banner():
    
     print("\033[1;31m" + "="*56)  
     print("\033[1;32m" + "      ██████████████████████████████████████") 
-    print("\033[1;32m" + "      ███\033[1;33m      Kichola Malware v1.0      \033[1;32m███") 
+    print("\033[1;32m" + "      ███\033[1;33m     Kichola Encrypter v1.0     \033[1;32m███") 
     print("\033[1;32m" + "      ██████████████████████████████████████")
     print("\033[1;34m" + "  [~] Welcome to Kichola's terminal. Ready to explore.") 
     print("\033[1;34m" + "  [~] Choose an option from the menu below.")  
